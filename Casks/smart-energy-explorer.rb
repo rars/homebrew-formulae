@@ -3,7 +3,7 @@ cask "smart-energy-explorer" do
   
   on_intel do
     sha256 "2284015a9ded29d019d2876caeee9179194246687e9eaeb3f1ae5bb2705bb843"
-    url "https://github.com/rars/smart_energy_explorer/releases/download/v#{version}/smart-energy-explorer-#{version}.dmg"  
+    url "https://github.com/rars/smart_energy_explorer/releases/download/v#{version}/smart-energy-explorer-#{version}_x64.dmg"  
   end
 
   on_arm do
