@@ -1,13 +1,13 @@
 cask "smart-energy-explorer" do
-  version "0.3.2"
+  version "1.0.0"
 
   on_intel do
-    sha256 "c4017ad40b667bb5cdea614252fbac272ee5e9bbeac8fe7d17face5e56f14f67"
+    sha256 "83b581f46b2613cf384b16763900e7a779ead09f81e69d3fcff3e435fc99cbe6"
     url "https://github.com/rars/smart_energy_explorer/releases/download/v#{version}/smart-energy-explorer_#{version}_x64.dmg"
   end
 
   on_arm do
-    sha256 "8e40ca67cb0d2fbee5d2481f88b7aeb385a778d3c3973b66b3cc838c41076118"
+    sha256 "6e5a78c3156ab6a0fcc1c783e1d66aecba6dfa40a4d3f3b1e4650bd07d73e567"
     url "https://github.com/rars/smart_energy_explorer/releases/download/v#{version}/smart-energy-explorer_#{version}_aarch64.dmg"
   end
 
